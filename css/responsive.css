@@ -206,8 +206,11 @@ header .navbar-light .navbar-nav {
 @media(max-width:479px) {
 	header .login li.search input[type="text"]{top:3px;padding-right: 40px;}
 	a.month-detail{float: left!important;}
+	header {
+    top: -17px;
+}
 	header .logo {
-    width: 100px;}
+    width: 80px;}
 	.contact-bg ul.info-share li{    margin-right: 10px;}
 	.iq-breadcrumb { background-size: 190% 100%; }
 	.iq-awards { padding: 30px; }
