@@ -151,6 +151,20 @@ header .navbar-light .navbar-nav {
 	.iq-coming .big-text { font-size: 50px; line-height: 60px; }
 }
 @media(max-width:767px) {
+	header .logo {
+    width: 80px;
+}
+.login-btn{
+    font-size: 10px !important;
+    top: -5px!important;
+    position: relative!important;
+    padding: 10px!important;
+}
+.button {
+    padding: 6px 46px;
+    font-weight: 600;
+    font-size: 15px;
+}
 	.feature1 .features-img:after{display: none;}
 	.product-feature .feature1 {
     padding-bottom: 75px;
@@ -259,4 +273,12 @@ header .navbar-light .navbar-nav {
 	.iq-coming #countdown { margin-top: 20px !important; }
 	.iq-coming .form-row>.col, .iq-coming .form-row>[class*=col-] { width: 100%; }
 	.iq-coming form .form-control, .iq-coming form .button { width: 100%; border-radius: 10px; text-align: center; }
+}
+
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
 }
