@@ -1,29 +1,3 @@
-/*
-Vizion-Al/ML-Digital Marketing Responsive HTML5 Template
-Author: iqonicthemes.in
-Version: 1.0
-Design and Developed by: iqonicthemes.in
-*/
-
-/*================================================
-[  Table of contents  ]
-================================================
-1  Header
-2  Banner
-3  Features
-4  Awards
-5  Blog
-6  Footer
-7  Team
-8  Breadcrumb
-9  Tab
-10 Login and Register form
-11 Contact page
-12 Challanges
-13 Partner
-14 Testimonial
-15 services
-16 Comming Soon
 
 /*---------------------------------------------------------------------
 1 Header
@@ -223,7 +197,13 @@ a.month-detail:hover{color:#f14544;}
 6 Footer
 ---------------------------------------------------------------------*/
 footer h5, footer h4 { font-weight: 500; }
-footer.iq-footer.fshap { position: relative; background: url("../images/bg/fshap.png"); padding-top: 400px; padding-bottom: 50px; background-size: 100% 100%; }
+footer.iq-footer.fshap {
+  position: relative;
+  background: url(../images/bg/fshap.png);
+  padding-top: 250px;
+  padding-bottom: 50px;
+  background-size: 100% 110%;
+ }
 footer .footer-one { position: absolute; top: 250px; left: -50px; transform: rotate(-40deg); opacity: 0.5; }
 footer.iq-footer.fshap::after { position: absolute; background: url("../images/bg/03.png") no-repeat; content: ""; right: 0; bottom: 0; width: 678px; height: 684px; z-index: 1; }
 footer ul li { list-style: none; }
